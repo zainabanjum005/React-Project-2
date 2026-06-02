@@ -1,11 +1,11 @@
-import React from 'react'
-
+import styles from './Nav.module.css';
 const Nav = () => {
+
   return (
     <div>
-      <nav>
+      <nav className={`${styles.Navigation} container`}>
         <div className="logo">
-          <img src="\public\images\logo.png" alt="logo" />
+          <img src="\images\logo.png" alt="logo" />
         </div>
 
         <ul>
@@ -17,7 +17,7 @@ const Nav = () => {
 
       </nav>
     </div>
-  )
-}
+  );
+};
 
 export default Nav
