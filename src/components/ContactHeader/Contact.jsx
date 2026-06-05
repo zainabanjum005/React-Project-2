@@ -1,7 +1,7 @@
 import styles from './Contact.module.css';
 const Contact = () => {
   return (
-      <div className={`container ${styles.Contact_Section}`}>
+      <div className={`${styles.Contact_Section}`}>
             <h1>CONTACT US</h1>
             <p>
               LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU!
